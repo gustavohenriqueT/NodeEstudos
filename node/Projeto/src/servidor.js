@@ -16,7 +16,7 @@ app.get('/produtos', (req, res, next) => {
     res.send(banco.getProdutos())
 })
 
-app.get('/produtos/:id', (req, res, next) => {
+app.get('/produtos/:id', (req, res, next) => {4444
     res.send(banco.getProduto(req.params.id))
 })
 
